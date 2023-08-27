@@ -1,0 +1,170 @@
+Steps For GIT
+
+1)
+mahes@DESKTOP-LDUD9S0 MINGW64 /h/PROJECT/New folder/Final-Project-updated/Final-Project-updated
+$ git config --global user.mail
+
+mahes@DESKTOP-LDUD9S0 MINGW64 /h/PROJECT/New folder/Final-Project-updated/Final-Project-updated
+$ git config --global user.email
+yadavavnish439@gmail.com
+
+mahes@DESKTOP-LDUD9S0 MINGW64 /h/PROJECT/New folder/Final-Project-updated/Final-Project-updated
+$ git config --global user.name
+Avnish Yadav
+
+mahes@DESKTOP-LDUD9S0 MINGW64 /h/PROJECT/New folder/Final-Project-updated/Final-Project-updated
+$ ssh-keygen -t ed25519 -C "yadavavnish439@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/mahes/.ssh/id_ed25519): C:\Users\mahes\OneDrive\Desktop
+C:\Users\mahes\OneDrive\Desktop already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Saving key "C:\\Users\\mahes\\OneDrive\\Desktop" failed: Is a directory
+
+mahes@DESKTOP-LDUD9S0 MINGW64 /h/PROJECT/New folder/Final-Project-updated/Final-Project-updated
+$ cd C:\Users\mahes\OneDrive\Desktop
+bash: cd: C:UsersmahesOneDriveDesktop: No such file or directory
+
+mahes@DESKTOP-LDUD9S0 MINGW64 /h/PROJECT/New folder/Final-Project-updated/Final-Project-updated
+$ cd ^C
+
+mahes@DESKTOP-LDUD9S0 MINGW64 /h/PROJECT/New folder/Final-Project-updated/Final-Project-updated
+$ cd C:/Users/mahes/OneDrive/Desktop
+
+mahes@DESKTOP-LDUD9S0 MINGW64 ~/OneDrive/Desktop
+$ ls -l
+total 344141
+-rw-r--r-- 1 mahes 197609       165 Jul 26 17:25 '~$Final Project.pptx'
+-rwxr-xr-x 1 mahes 197609       904 Jun 13 08:14  µTorrent.lnk*
+-rw-r--r-- 1 mahes 197609   2301141 Jul 31 12:50  230340520019_Avnish_Yadav.docx
+-rw-r--r-- 1 mahes 197609    543152 Aug 18 14:33 'Apti_LR_Blood Relations_NA.pdf'
+-rw-r--r-- 1 mahes 197609    883395 Aug 18 17:03 'Apti_LR_Blood Relations_SOL.pdf'
+-rw-r--r-- 1 mahes 197609    483740 Aug 18 17:03 'Apti_LR_Data Arrangement (Puzzles)_SOL.pdf'
+-rw-r--r-- 1 mahes 197609    624599 Aug 17 14:14 'Apti_LR_Seating Arrangement_NA.pdf'
+-rw-r--r-- 1 mahes 197609    948123 Aug 18 17:03 'Apti_LR_Seating Arrangement_SOL.pdf'
+-rw-r--r-- 1 mahes 197609    519026 Aug 17 16:35  Apti_LR_Syllogism_NA.pdf
+-rw-r--r-- 1 mahes 197609    838490 Aug 18 17:04  Apti_LR_Syllogism_SOL.pdf
+-rw-r--r-- 1 mahes 197609   1075450 Aug 24 20:22  Avnish_Yadav_Daily_Activity.docx
+drwxr-xr-x 1 mahes 197609         0 Jun 18 22:45  backend/
+drwxr-xr-x 1 mahes 197609         0 Aug  8 06:31 'CCEE PREP'/
+-rw-r--r-- 1 mahes 197609     41430 Aug  6 22:30 'CORE JAVA_Sanfoundary_notes.docx'
+drwxr-xr-x 1 mahes 197609         0 Jul 31 13:39  Docker/
+-rwxr-xr-x 1 mahes 197609      2154 Jul 28 14:59 'Docker Desktop.lnk'*
+-rw-r--r-- 1 mahes 197609    113620 Jul 26 10:01 'Final Project.pptx'
+drwxr-xr-x 1 mahes 197609         0 Aug 13 06:04  FinalCCEE/
+-rw-r--r-- 1 mahes 197609  39230997 Jul 28 19:42  FinalCCEE.zip
+-rwxr-xr-x 1 mahes 197609      2845 Jul 31 00:12  GitHub.lnk*
+-rw-r--r-- 1 mahes 197609 301024450 Jul 29 22:58  HarshalCCEEPrep.zip
+-rw-r--r-- 1 mahes 197609    462458 Aug  6 20:42  ID.pdf
+-rw-r--r-- 1 mahes 197609   2351906 Aug  6 22:23 'Java Technologies I q.p.pdf'
+-rw-r--r-- 1 mahes 197609    780109 Aug  6 23:34  linux-commands-cheat-sheet-pdf.pdf
+-rwxr-xr-x 1 mahes 197609      2691 May 29 18:35 'MDN Web Docs.lnk'*
+-rwxr-xr-x 1 mahes 197609      2367 Aug 26 13:33  MongoDBCompass.lnk*
+drwxr-xr-x 1 mahes 197609         0 Jul 16 09:16 'Old Firefox Data'/
+-rw-r--r-- 1 mahes 197609     94823 Jul 31 09:58  SDM.pdf
+-rw-r--r-- 1 mahes 197609       864 Aug 22 23:29  test.gigs.json
+-rw-r--r-- 1 mahes 197609      1843 Aug 22 23:29  test.orders.json
+-rw-r--r-- 1 mahes 197609      1581 Aug 22 23:29  test.users.json
+-rw-r--r-- 1 mahes 197609       886 Aug 26 00:04  TrustedBy.jsx
+-rw-r--r-- 1 mahes 197609       675 Aug 26 00:04  TrustedBy.scss
+
+mahes@DESKTOP-LDUD9S0 MINGW64 ~/OneDrive/Desktop
+$ ls -a
+ ./                                            Apti_LR_Syllogism_SOL.pdf           ID.pdf
+ ../                                           Avnish_Yadav_Daily_Activity.docx   'Java Technologies I q.p.pdf'
+'.NET EXAM'/                                   backend/                            linux-commands-cheat-sheet-pdf.pdf
+'~$Final Project.pptx'                        'CCEE PREP'/                        'MDN Web Docs.lnk'*
+ µTorrent.lnk*                                'CORE JAVA_Sanfoundary_notes.docx'   MongoDBCompass.lnk*
+ 230340520019_Avnish_Yadav.docx                Docker/                            'Old Firefox Data'/
+'Apti_LR_Blood Relations_NA.pdf'              'Docker Desktop.lnk'*                SDM.pdf
+'Apti_LR_Blood Relations_SOL.pdf'             'Final Project.pptx'                 test.gigs.json
+'Apti_LR_Data Arrangement (Puzzles)_SOL.pdf'   FinalCCEE/                          test.orders.json
+'Apti_LR_Seating Arrangement_NA.pdf'           FinalCCEE.zip                       test.users.json
+'Apti_LR_Seating Arrangement_SOL.pdf'          GitHub.lnk*                         TrustedBy.jsx
+ Apti_LR_Syllogism_NA.pdf                      HarshalCCEEPrep.zip                 TrustedBy.scss
+
+mahes@DESKTOP-LDUD9S0 MINGW64 ~/OneDrive/Desktop
+$ ls -la
+total 344157
+drwxr-xr-x 1 mahes 197609         0 Aug 26 13:33  ./
+drwxr-xr-x 1 mahes 197609         0 Dec 17  2022  ../
+drwxr-xr-x 1 mahes 197609         0 Aug  7 17:13 '.NET EXAM'/
+-rw-r--r-- 1 mahes 197609       165 Jul 26 17:25 '~$Final Project.pptx'
+-rwxr-xr-x 1 mahes 197609       904 Jun 13 08:14  µTorrent.lnk*
+-rw-r--r-- 1 mahes 197609   2301141 Jul 31 12:50  230340520019_Avnish_Yadav.docx
+-rw-r--r-- 1 mahes 197609    543152 Aug 18 14:33 'Apti_LR_Blood Relations_NA.pdf'
+-rw-r--r-- 1 mahes 197609    883395 Aug 18 17:03 'Apti_LR_Blood Relations_SOL.pdf'
+-rw-r--r-- 1 mahes 197609    483740 Aug 18 17:03 'Apti_LR_Data Arrangement (Puzzles)_SOL.pdf'
+-rw-r--r-- 1 mahes 197609    624599 Aug 17 14:14 'Apti_LR_Seating Arrangement_NA.pdf'
+-rw-r--r-- 1 mahes 197609    948123 Aug 18 17:03 'Apti_LR_Seating Arrangement_SOL.pdf'
+-rw-r--r-- 1 mahes 197609    519026 Aug 17 16:35  Apti_LR_Syllogism_NA.pdf
+-rw-r--r-- 1 mahes 197609    838490 Aug 18 17:04  Apti_LR_Syllogism_SOL.pdf
+-rw-r--r-- 1 mahes 197609   1075450 Aug 24 20:22  Avnish_Yadav_Daily_Activity.docx
+drwxr-xr-x 1 mahes 197609         0 Jun 18 22:45  backend/
+drwxr-xr-x 1 mahes 197609         0 Aug  8 06:31 'CCEE PREP'/
+-rw-r--r-- 1 mahes 197609     41430 Aug  6 22:30 'CORE JAVA_Sanfoundary_notes.docx'
+drwxr-xr-x 1 mahes 197609         0 Jul 31 13:39  Docker/
+-rwxr-xr-x 1 mahes 197609      2154 Jul 28 14:59 'Docker Desktop.lnk'*
+-rw-r--r-- 1 mahes 197609    113620 Jul 26 10:01 'Final Project.pptx'
+drwxr-xr-x 1 mahes 197609         0 Aug 13 06:04  FinalCCEE/
+-rw-r--r-- 1 mahes 197609  39230997 Jul 28 19:42  FinalCCEE.zip
+-rwxr-xr-x 1 mahes 197609      2845 Jul 31 00:12  GitHub.lnk*
+-rw-r--r-- 1 mahes 197609 301024450 Jul 29 22:58  HarshalCCEEPrep.zip
+-rw-r--r-- 1 mahes 197609    462458 Aug  6 20:42  ID.pdf
+-rw-r--r-- 1 mahes 197609   2351906 Aug  6 22:23 'Java Technologies I q.p.pdf'
+-rw-r--r-- 1 mahes 197609    780109 Aug  6 23:34  linux-commands-cheat-sheet-pdf.pdf
+-rwxr-xr-x 1 mahes 197609      2691 May 29 18:35 'MDN Web Docs.lnk'*
+-rwxr-xr-x 1 mahes 197609      2367 Aug 26 13:33  MongoDBCompass.lnk*
+drwxr-xr-x 1 mahes 197609         0 Jul 16 09:16 'Old Firefox Data'/
+-rw-r--r-- 1 mahes 197609     94823 Jul 31 09:58  SDM.pdf
+-rw-r--r-- 1 mahes 197609       864 Aug 22 23:29  test.gigs.json
+-rw-r--r-- 1 mahes 197609      1843 Aug 22 23:29  test.orders.json
+-rw-r--r-- 1 mahes 197609      1581 Aug 22 23:29  test.users.json
+-rw-r--r-- 1 mahes 197609       886 Aug 26 00:04  TrustedBy.jsx
+-rw-r--r-- 1 mahes 197609       675 Aug 26 00:04  TrustedBy.scss
+
+mahes@DESKTOP-LDUD9S0 MINGW64 ~/OneDrive/Desktop
+$  ssh-keygen -t ed25519 -C "yadavavnish439@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/mahes/.ssh/id_ed25519):
+Created directory '/c/Users/mahes/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/mahes/.ssh/id_ed25519
+Your public key has been saved in /c/Users/mahes/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:VU8n/L02wTUMg1PlMDkO1d6kjo0h6z7UsnXv7/7Tptk yadavavnish439@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|            =OO..|
+|           = =**o|
+|          . + ===|
+|         .. ...++|
+|        S  + *  o|
+|          + = ++ |
+|         o + ...o|
+|          +    ++|
+|         ...  o*E|
++----[SHA256]-----+
+
+mahes@DESKTOP-LDUD9S0 MINGW64 ~/OneDrive/Desktop
+$ cd /c/Users/mahes/.ssh
+
+mahes@DESKTOP-LDUD9S0 MINGW64 ~/.ssh
+$ ls -la
+total 18
+drwxr-xr-x 1 mahes 197609   0 Aug 27 19:19 ./
+drwxr-xr-x 1 mahes 197609   0 Aug 27 19:19 ../
+-rw-r--r-- 1 mahes 197609 419 Aug 27 19:19 id_ed25519
+-rw-r--r-- 1 mahes 197609 106 Aug 27 19:19 id_ed25519.pub
+
+mahes@DESKTOP-LDUD9S0 MINGW64 ~/.ssh
+$ cat id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJmZFDTutFltjclVCj6EO61B0bpAeMor/EDRwySlS0QR yadavavnish439@gmail.com
+
+mahes@DESKTOP-LDUD9S0 MINGW64 ~/.ssh
+$ clip < id_ed25519.pub
+
+mahes@DESKTOP-LDUD9S0 MINGW64 ~/.ssh
+$
